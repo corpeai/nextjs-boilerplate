@@ -1,7 +1,9 @@
 {
-  "compilerOptions": {
+ "compilerOptions": {
+    "types": ["mocha", "node"],
+    "typeRoots": ["./node_modules/@types"],
     "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": ["dom", "dom.iterable", "esnext", "es2015"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
